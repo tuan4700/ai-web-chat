@@ -12,8 +12,6 @@ export default function BrowserView({ getUrl}) {
       formattedUrl = "https://" + formattedUrl;
     }
     setLoading(true);
-    const result = await apiWebsiteProxy(formattedUrl);
-    setHtmlContent(result);
     try {
       const result = await apiWebsiteProxy(formattedUrl);
       setHtmlContent(result);
@@ -47,7 +45,7 @@ export default function BrowserView({ getUrl}) {
         {htmlContent ? (
           <iframe
             title="Web View"
-            srcDoc={htmlContent}
+            src={url}
             className="w-full h-full border-0"
           />
         ) : (
