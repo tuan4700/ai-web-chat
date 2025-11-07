@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import { askWebsiteQuestion } from "../api";
 
 export default function ChatPanel({ url }) {
   const [input, setInput] = useState("");
   const [answer, setAnswer] = useState("");
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setInput("");
+    setAnswer("");
+  }, [url]);
 
   const handleAsk = async () => {
     if (!input.trim()) return;

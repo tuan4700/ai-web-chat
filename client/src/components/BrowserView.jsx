@@ -7,6 +7,10 @@ export default function BrowserView({ getUrl}) {
   const [loading, setLoading] = useState(false);
 
   const handleLoadPage = async () => {
+    if(!url) {
+      alert("Vui lòng nhập địa chỉ trang web.");
+      return;
+    }
     let formattedUrl = url.trim();
     if (!formattedUrl.startsWith("http")) {
       formattedUrl = "https://" + formattedUrl;

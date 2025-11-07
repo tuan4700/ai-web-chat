@@ -1,6 +1,6 @@
 import BrowserView from "./components/BrowserView";
 import ChatPanel from "./components/ChatPanel";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function App() {
   const [url, setUrl] = useState();
