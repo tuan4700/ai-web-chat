@@ -50,4 +50,4 @@ app.post("/api/proxy", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT, () => console.log(`✅ Server chạy tại http://localhost:${process.env.PORT}`));
+app.listen(process.env.PORT, () => console.log(`✅ Server chạy tại link http://localhost:${process.env.PORT}`));
