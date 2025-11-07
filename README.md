@@ -25,7 +25,8 @@ If you are developing a production application, we recommend using TypeScript wi
   + cd client
   + npm install
   + npm run dev
-<img width="1904" height="908" alt="image" src="https://github.com/user-attachments/assets/5ee3eaaf-005c-4b22-9f24-7763167a35f0" />
-<img width="1517" height="907" alt="image" src="https://github.com/user-attachments/assets/6cfc4a73-659e-4ab7-8831-82fa88db9997" />
-<img width="1907" height="910" alt="image" src="https://github.com/user-attachments/assets/eca191a2-74a9-45e7-8c20-9c3788a51332" />
+<img width="1918" height="909" alt="image" src="https://github.com/user-attachments/assets/0d0ef552-84da-486b-a881-1e430401ef11" />
+<img width="1912" height="909" alt="image" src="https://github.com/user-attachments/assets/90aec927-0945-4715-b7e1-7dbdfe22bc76" />
+<img width="1915" height="911" alt="image" src="https://github.com/user-attachments/assets/36160252-f058-4556-937e-0d9ede9786fe" />
+
 
