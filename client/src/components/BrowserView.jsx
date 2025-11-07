@@ -45,7 +45,7 @@ export default function BrowserView({ getUrl}) {
         {htmlContent ? (
           <iframe
             title="Web View"
-            src={url}
+            srcDoc={htmlContent}
             className="w-full h-full border-0"
           />
         ) : (
